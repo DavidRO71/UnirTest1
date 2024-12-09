@@ -3,4 +3,4 @@ WORKDIR /app
 COPY . /app
 #RUN pip install --no-cache-dir
 RUN export PYTHONPATH=.
-CMD ["python", "app/calc.py"]
+CMD ["python", "calc.py"]
